@@ -1,2 +1,1 @@
-// TODO:
-export const resolvers = {};
+// src/resolvers.ts
