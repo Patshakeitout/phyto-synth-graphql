@@ -1,1 +1,37 @@
-<!-- TODO: -->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>PhytoSynth GraphQL – Demo</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <style>
+      body { font-family: system-ui, sans-serif; max-width: 720px; margin: 2rem auto; }
+      code, pre { font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; }
+      form { display: grid; gap: .75rem; }
+      .results { margin-top: 1.25rem; }
+    </style>
+  </head>
+  <body>
+    <header>
+      <h1>PhytoSynth</h1>
+      <p>Query the GraphQL API and see JSON responses.</p>
+    </header>
+
+    <main>
+      <section aria-labelledby="search-title">
+        <h2 id="search-title">Ingredient search</h2>
+        <form id="search-form">
+          <label>
+            <span>Search term</span>
+            <input name="q" placeholder="e.g. soothing" />
+          </label>
+          <button type="submit">Search</button>
+        </form>
+        <div class="results" id="search-results" role="region" aria-live="polite"></div>
+      </section>
+    </main>
+
+    <script type="module" src="./main.ts"></script>
+  </body>
+</html>
+
