@@ -1,6 +1,6 @@
-// src/main.ts
-const form = document.getElementById("search-form") as HTMLFormElement;
-const out = document.getElementById("search-results")!;
+// src/main.js
+const form = document.getElementById("search-form");
+const out = document.getElementById("search-results");
 
 form.addEventListener("submit", async (e) => {
   e.preventDefault();
