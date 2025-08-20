@@ -1,0 +1,59 @@
+body {
+    font-family: system-ui, sans-serif;
+    max-width: 720px;
+    margin: 2rem auto;
+    background-image: url("phyto-bg.jpg");
+    background-repeat: no-repeat;
+}
+
+code,
+pre {
+    font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+}
+
+form {
+    display: grid;
+    gap: .75rem;
+}
+
+#search-input {
+    height: 24px;
+    width: 200px;
+    background-color: #e0df67;
+    font-weight: bold;
+    padding: 8px;
+    margin-left: 8px;
+    margin-bottom: 24px;
+}
+
+.btn-search {
+    width: 220px;
+    height: 47px;
+    font-size: large;
+    font-weight: bold;
+    background-color: #53569f;
+    border-radius: 8px;
+    margin-top: 8px;
+    margin-left: 94px;
+    color: #eaebe5;
+    border: none;
+    cursor: pointer; /* pointer on hover */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2); /* base shadow */
+    transition: 
+        box-shadow 0.25s ease,
+        transform 0.25s ease; /* animate both shadow & scale */
+}
+
+.btn-search:hover {
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3); /* stronger shadow */
+    transform: scale(1.08); /* 👈 slightly bigger */
+}
+
+.btn-search:active {
+    box-shadow: 0 3px 5px rgba(0, 0, 0, 0.25); /* pressed shadow */
+    transform: scale(0.97); /* 👈 slightly smaller when pressed */
+}F
+
+.results {
+    margin-top: 1.25rem;
+}
