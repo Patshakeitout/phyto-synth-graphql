@@ -37,22 +37,21 @@ form {
     margin-left: 94px;
     color: #eaebe5;
     border: none;
-    cursor: pointer; /* pointer on hover */
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2); /* base shadow */
+    cursor: pointer;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
     transition: 
         box-shadow 0.25s ease,
-        transform 0.25s ease; /* animate both shadow & scale */
+        transform 0.25s ease;
 }
 
 .btn-search:hover {
-    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3); /* stronger shadow */
-    transform: scale(1.08); /* 👈 slightly bigger */
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+    transform: scale(1.08);
 }
 
 .btn-search:active {
-    box-shadow: 0 3px 5px rgba(0, 0, 0, 0.25); /* pressed shadow */
-    transform: scale(0.97); /* 👈 slightly smaller when pressed */
-}F
+    box-shadow: 0 3px 5px rgba(0, 0, 0, 0.25);
+    transform: scale(0.97);
 
 .results {
     margin-top: 1.25rem;
